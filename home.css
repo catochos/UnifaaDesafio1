@@ -1,0 +1,16 @@
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.card {
+  display: inline-block;
+  width: calc(45% - 10px); /* adjust the width and margin as needed */
+  margin-right: 10px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
